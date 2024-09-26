@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+#full{
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    width: 1050px;
+    height: 1050px;
+    background: #153B50;
+}
+#header{
+    font-size: 30px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    margin: 10px;
+    background: #16F4D0;
+    font-family:'Courier New', Courier, monospace;
+}
+#game {
+    border-radius: 30px;
+    height: 700px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 5px; /* Reduce the column gap */
+    row-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+#reset{
+    border-radius: 30px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background: #16F4D0;
+}
+.btn{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    background: #16F4D0;
+}
+.btn:hover {
+    background: #153B50;
+    transition-duration: 0.3s;
+}
+.rset{
+    height: 70px;
+    width: 200px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    background: black;
+    color: white;
+}
+.rset:hover{
+    background: white;
+    color: black;
+    transition-duration: 0.1s;
+}
